@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocumentEmitter", "WordDocumentEmitter\WordDocumentEmitter.csproj", "{FDD43D55-B0D6-4AC8-ABE2-3258C3C3AD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDocumentEmitterWeb", "WordDocumentEmitterWeb\WordDocumentEmitterWeb.csproj", "{01DDBCEC-30BF-4FDF-A474-3E629EEE5A0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD43D55-B0D6-4AC8-ABE2-3258C3C3AD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD43D55-B0D6-4AC8-ABE2-3258C3C3AD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD43D55-B0D6-4AC8-ABE2-3258C3C3AD4A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FDD43D55-B0D6-4AC8-ABE2-3258C3C3AD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD43D55-B0D6-4AC8-ABE2-3258C3C3AD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD43D55-B0D6-4AC8-ABE2-3258C3C3AD4A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{01DDBCEC-30BF-4FDF-A474-3E629EEE5A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DDBCEC-30BF-4FDF-A474-3E629EEE5A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DDBCEC-30BF-4FDF-A474-3E629EEE5A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DDBCEC-30BF-4FDF-A474-3E629EEE5A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
