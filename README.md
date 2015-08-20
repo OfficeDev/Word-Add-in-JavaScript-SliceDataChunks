@@ -13,7 +13,7 @@
 
 <a name="summary"></a>
 ##Summary
-This sample shows how to use JavaScript in a Word 2013 task pane add-in to get the current document and slice it into chunks of data of user-defined sizes. The data could then be submitted to a service (such as an editing service, a translation service, or an e-book publishing service).
+This sample shows how to use JavaScript in a Word 2013 task pane add-in to get the current document and slice it into chunks of data in user-defined sizes. The data could then be submitted to a service (such as an editing service, a translation service, or an e-book publishing service).
 
 <a name="prerequisites"></a>
 ## Prerequisites ##
@@ -63,28 +63,32 @@ The sample demonstrates:
 
 The add-in displays the number of slices and the size of each slice, along with buttons you can use to view the content of each slice.
 
+>This sample displays the slice information to the user, but your add-in will probably send the data slices to a web service. The web service can then rebuild the presentation from the slices.
+
 
 <a name="troubleshooting"></a>
 ## Troubleshooting
 
 - If the add-in starts with a blank document, ensure that the **StartAction** property of the WordDocumentEmitter project is set to *DocumentForEditing.docx* (not to *New Word Document*).
-- If the add-in opens in read-only mode, click the **Enable editing** button.
+- If the document opens in read-only mode, click the **Enable editing** button.
 - If the add-in does not appear in the task pane of the document, Choose **Insert > My Add-ins > Word Document Emitter**.
 
 
 <a name="questions"></a>
 ## Questions and comments
 
-- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Word-Add-in-JavaScript-BindContentControls).
+- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Word-Add-in-JavaScript-SliceDataChunks).
 - Questions about Office Add-ins development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-addins). Make sure that your questions or comments are tagged with [office-addins].
 
 
 <a name="additional-resources"></a>
 ## Additional resources ##
 
-- [Office Add-ins](http://msdn.microsoft.com/library/office/jj220060.aspx)
+- [Office Add-ins](http://msdn.microsoft.com/library/office/jj220060.aspx) documentation on MSDN
+- [Get the whole document from an add-in for PowerPoint or Word](https://msdn.microsoft.com/library/office/jj715279.aspx)
 - [Document.getFileAsync method](http://msdn.microsoft.com/library/office/apps/jj715284.aspx)
 - [File.getSliceAsync method](http://msdn.microsoft.com/library/office/apps/jj715281.aspx)
+- [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
 
 ## Copyright
 Copyright (c) 2015 Microsoft. All rights reserved.
