@@ -21,7 +21,7 @@ This sample shows how to use JavaScript in a Word 2013 task pane add-in to get t
 This sample requires the following:  
 
   - Word 2013.
-  - Visual Studio 2013 with Update 5 or Visual Studio 2015.  
+  - Visual Studio 2013 (Update 5) or Visual Studio 2015, with Microsoft Office Developer Tools.  
   - Any browser that supports ECMAScript 5.1, HTML5, and CSS3, such as Internet Explorer 9, Chrome 13, Firefox 5, Safari 5.0.6, or a later version of these browsers.
   
 
@@ -29,29 +29,26 @@ This sample requires the following:
 ## Key components of the sample
 The sample solution contains the following key files:
 
-**WordDocumentEmitter project**
+**WordDocumentEmitter** project
 
 - WordDocumentEmitter.xml: The manifest file for the Word add-in.
-- DocumentForEditing.docx: Starter document with 500 pages of text. 
+- DocumentForEditing.docx: Start Document with 500 pages of text. 
  
-**WordDocumentEmitterWeb project**
+**WordDocumentEmitterWeb** project
 
 - App/Home/Home.html. The HTML user interface that is displayed in the task pane. 
 - App/Home/Home.js. Logic that runs when the add-in is loaded. 
 
 
-All other files are automatically provided by the Visual Studio project template for Office Add-ins.
-
-
 <a name="codedescription"></a>
 ##Description of the code
-The DocumentForEditing.docx file is set as the **StartAction** property of the task pane add-in. The document is large enough (500 pages) to be sliced into a number of discrete chunks of data. 
+The DocumentForEditing.docx file is set as the **Start Document** property of the task pane add-in. The document is large enough (500 pages) to be sliced into a number of discrete chunks of data. 
 
 The sample demonstrates:
 
 - How to use JavaScript to retrieve the selected value from a drop-down list.
-- How to use the getFileAsync method to slice the file into chunks of data of varying sizes.
-- How to retrieve the data from each slice of the file by using the getSliceAsync method.
+- How to use the **getFileAsync** method to slice the file into chunks of data of particular sizes.
+- How to retrieve the data from each slice of the file by using the **getSliceAsync** method.
 
 
 <a name="build"></a>
@@ -69,7 +66,7 @@ The add-in displays the number of slices and the size of each slice, along with 
 <a name="troubleshooting"></a>
 ## Troubleshooting
 
-- If the add-in starts with a blank document, ensure that the **StartAction** property of the WordDocumentEmitter project is set to *DocumentForEditing.docx* (not to *New Word Document*).
+- If the add-in starts with a blank document, ensure that the **Start Document** property of the WordDocumentEmitter project is set to *DocumentForEditing.docx* (not to *New Word Document*).
 - If the document opens in read-only mode, click the **Enable editing** button.
 - If the add-in does not appear in the task pane of the document, Choose **Insert > My Add-ins > Word Document Emitter**.
 
