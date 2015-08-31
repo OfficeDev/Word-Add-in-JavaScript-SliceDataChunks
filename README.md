@@ -31,13 +31,13 @@ The sample solution contains the following key files:
 
 **WordDocumentEmitter** project
 
-- WordDocumentEmitter.xml: The manifest file for the Word add-in.
-- DocumentForEditing.docx: Start Document with 500 pages of text. 
+- [WordDocumentEmitter.xml](https://github.com/OfficeDev/Word-Add-in-JavaScript-SliceDataChunks/blob/master/WordDocumentEmitter/WordDocumentEmitterManifest/WordDocumentEmitter.xml): The manifest file for the Word add-in.
+- [DocumentForEditing.docx](https://github.com/OfficeDev/Word-Add-in-JavaScript-SliceDataChunks/blob/master/WordDocumentEmitter/DocumentForEditing.docx): Start Document with 500 pages of text. 
  
 **WordDocumentEmitterWeb** project
 
-- App/Home/Home.html. The HTML user interface that is displayed in the task pane. 
-- App/Home/Home.js. Logic that runs when the add-in is loaded. 
+- [App/Home/Home.html](https://github.com/OfficeDev/Word-Add-in-JavaScript-SliceDataChunks/blob/master/WordDocumentEmitterWeb/App/Home/Home.html). The HTML user interface that is displayed in the task pane. 
+- [App/Home/Home.js](https://github.com/OfficeDev/Word-Add-in-JavaScript-SliceDataChunks/blob/master/WordDocumentEmitterWeb/App/Home/Home.js). Logic that runs when the add-in is loaded. 
 
 
 <a name="codedescription"></a>
@@ -74,7 +74,7 @@ The add-in displays the number of slices and the size of each slice, along with 
 <a name="questions"></a>
 ## Questions and comments
 
-- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Word-Add-in-JavaScript-SliceDataChunks).
+- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Word-Add-in-JavaScript-SliceDataChunks/issues).
 - Questions about Office Add-ins development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-addins). Make sure that your questions or comments are tagged with [office-addins].
 
 
