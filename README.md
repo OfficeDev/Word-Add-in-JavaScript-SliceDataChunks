@@ -54,7 +54,8 @@ The sample demonstrates:
 <a name="build"></a>
 ## Build and debug ##
 
-1. In Visual Studio, press F5 to build and deploy the sample add-in. The DocumentForEditing.docx file opens in Word.
+1. In Visual Studio, press F5 to build and deploy the sample add-in.
+2. On the **Home** ribbon, click **Open** in the **Document Slicer** group.
 2. In the task pane add-in, choose a size for the data chunk.
 3. Click the **Publish now!** button. 
 
