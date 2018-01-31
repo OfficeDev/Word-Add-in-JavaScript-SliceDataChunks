@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: 'Word add-in: Send a Word document in chunks to a service'
+  path: ''
+  description: This sample Word add-in shows how to use JavaScript in a Word 2013 task pane add-in to get the current document and slice it into chunks of data in user-defined sizes. The data could then be submitted to a service (such as an editing service, a translation service, or an e-book publishing service).
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-ins
+  azureDeploy: ''
+  author: rick-kirkham
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Word
+    scenarios: []
