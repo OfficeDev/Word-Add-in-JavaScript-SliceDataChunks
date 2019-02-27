@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Word
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 8/18/2015 10:55:21 AM
+---
 # Word Add-in: Send a Word document in chunks to a service
 
 **Table of contents**
